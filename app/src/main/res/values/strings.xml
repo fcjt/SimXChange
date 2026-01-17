@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SimXchange</string>
+
+    <!-- Main Activity -->
+    <string name="app_subtitle">Check live foreign currency exchange rates</string>
+    <string name="label_from">From</string>
+    <string name="label_to">To</string>
+    <string name="hint_amount">1.00</string>
+    <string name="default_amount">0.00</string>
+    <string name="btn_convert">Convert</string>
+    <string name="btn_converting">Converting…</string>
+    <string name="btn_view_rates">View All Rates →</string>
+    <string name="footer_powered_by">Powered by ExchangeRate-API</string>
+    <string name="swap_icon">⇅</string>
+
+    <!-- Rates Activity -->
+    <string name="rates_title">Live Rates</string>
+    <string name="rates_base_currency">Base Currency: USD</string>
+    <string name="btn_back">← Back</string>
+    <string name="error_load_rates">Failed to load rates</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="cd_amount_input">Enter amount to convert</string>
+    <string name="cd_from_currency">Select source currency</string>
+    <string name="cd_to_currency">Select target currency</string>
+    <string name="cd_swap_currencies">Swap source and target currencies</string>
+    <string name="cd_convert_button">Convert currency</string>
+    <string name="cd_view_rates">View all exchange rates</string>
+    <string name="cd_back_button">Go back</string>
+    <string name="cd_converted_amount">Converted amount result</string>
+
+    <!-- Error Messages -->
+    <string name="error_empty_amount">Please enter an amount</string>
+    <string name="error_invalid_format">Invalid amount format</string>
+    <string name="error_amount_positive">Amount must be greater than 0</string>
+    <string name="error_network">Network error: %1$s</string>
+    <string name="error_api">API Error: %1$s</string>
+    <string name="error_parse">Error parsing response: %1$s</string>
+</resources>
